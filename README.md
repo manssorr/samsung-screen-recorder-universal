@@ -94,6 +94,8 @@ apksigner sign --ks ~/.android/debug.keystore --ks-pass pass:android --out sr-pa
 
 A rebuilt APK has a different signature, so uninstall the old one first (`adb uninstall com.sec.app.screenrecorder`).
 
+To find and fix the next problem the same way, see [docs/modifying.md](docs/modifying.md).
+
 Tested on Galaxy XCover7 Pro (SM-G556B), One UI 8.5, Android 16: recording, Gallery, "done" notification, preview share, and no prompt with `PROJECT_MEDIA` allowed.
 
 ## ▶️ How to Use
